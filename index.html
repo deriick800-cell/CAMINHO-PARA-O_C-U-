@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="pt-BR"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Caminho Para o Céu — V3 HD</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<canvas id="game" width="1280" height="720"></canvas><div id="loading">Carregando Caminho Para o Céu…</div>
+<div id="hud">
+<div id="topLeft" class="panel"><div class="brand">✝ CAMINHO PARA O CÉU <span>V3 HD</span></div><div id="bars"></div></div>
+<div id="quest" class="panel"><div class="gold">📜 MISSÃO</div><div id="questBody">Encontre o Ancião da Vila.</div></div>
+<div id="location" class="panel">🌎 BRASIL • VILA DA ESPERANÇA</div><div id="message" class="panel"></div>
+<div id="hint">WASD / SETAS • E INTERAGIR • R ORAR • I INVENTÁRIO</div>
+<div id="touch"><div class="stick"><button data-key="up">▲</button><button data-key="left">◀</button><button data-key="right">▶</button><button data-key="down">▼</button></div><div class="touchActions"><button id="tPray">🙏</button><button id="tInv">🎒</button><button id="tInteract">💬</button></div></div>
+</div>
+<div id="inventory" class="modal"><div class="modalBox"><button class="close">×</button><h2>🎒 Inventário</h2><div id="items"></div></div></div>
+<div id="dialogue" class="modal"><div class="dialogueBox"><div id="speaker" class="gold"></div><div id="dialogueText"></div><button id="dialogueOk">CONTINUAR</button></div></div>
+<script src="js/game.js"></script></body></html>
